@@ -1,6 +1,8 @@
 #include "evenement.h"
 #include <ostream>
 
+TIME::Evt::~Evt() {}
+
 void TIME::Evt::afficher(std::ostream& f) const
 {
   f<<"***** Evt ********"<<"\n"<<" sujet="<<sujet<<"\n";
